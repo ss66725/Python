@@ -1,0 +1,11 @@
+input:
+A C A A D B C A C B A D C A D C B B D A
+output:
+hello world
+输入你的选择题答案.用空格分离恭喜你通过考试!总共答对20题
+---
+input:
+X X X X X X C A C B A D C A D C B B D A
+output:
+hello world
+输入你的选择题答案.用空格分离很遗憾没有通过!总共答对14题

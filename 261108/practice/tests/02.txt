@@ -1,0 +1,8 @@
+input:
+Tom
+output:
+Please input your name!Hello Tom
+You need to buy more banana
+name:banana whole_price19728
+name:orange whole_price391746
+name:apple whole_price33933879

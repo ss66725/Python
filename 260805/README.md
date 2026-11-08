@@ -13,3 +13,12 @@
 | summer_practice7.py | 面向对象：定义 `Pet` 类（名字、种类、年龄），并用 get/set 方法读写属性 |
 
 **知识点**：`try/except`、列表推导式、随机数、字典统计、字典查找与增删、类与方法
+
+## 期望输出
+
+已测试的程序，示例输入和期望输出放在 [tests/](tests/) 文件夹中：`summer_practice1`、`summer-practice3`、`summer-practice4`、`summer_practice5`、`summer_practice6`。
+
+没有自动测试的程序：
+
+- `summer_practice2.py`：每次生成的随机数都不同，输出不固定。
+- `summer_practice7.py`：输出里有对象的内存地址（如 `<__main__.Car object at 0x...>`），每次运行都不同。

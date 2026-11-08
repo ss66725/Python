@@ -10,3 +10,15 @@
 | [261108](261108/README.md) | 练习（practice）和实训（shixun） | 基础语法、类、字典、词云 |
 
 编译和运行产生的缓存文件、虚拟环境和 VS Code 临时文件不纳入仓库，见 [.gitignore](.gitignore)。
+
+## 运行测试
+
+每个程序都有示例输入和期望输出，放在各文件夹的 `tests/` 里。在仓库根目录运行下面的命令，会自动运行程序并比对结果：
+
+```bash
+python run_tests.py
+```
+
+只检查某一天的程序，可以加上文件夹名：`python run_tests.py 261108`。
+
+运行器会固定集合的打印顺序（设置 `PYTHONHASHSEED=0`），否则 `print(set)` 的结果每次可能不同。
