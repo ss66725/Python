@@ -1,2 +1,10 @@
-# 01
-to restore my coding
+# Python 学习记录
+
+这是我学习 Python 时写的练习和项目代码，按日期整理。每个文件夹对应一天，文件夹里的 README 说明了当天的内容。
+
+| 日期 | 主要内容 | 说明 |
+|---|---|---|
+| [261105](261105/README.md) | BOSS 直聘点评采集工具（clawer） | 别人编写的项目，先按日期保存 |
+| [261108](261108/README.md) | 练习（practice）和实训（shixun） | 基础语法、类、字典、词云 |
+
+编译和运行产生的缓存文件、虚拟环境和 VS Code 临时文件不纳入仓库，见 [.gitignore](.gitignore)。
